@@ -14,6 +14,7 @@ typealias CompletionHandler = (_ Succsess: Bool) -> ()
 let BASE_URL = "https://mynewownchat1.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 let URL_LOGIN = "\(BASE_URL)account/login"
+let URL_USER_ADD = "\(BASE_URL)user/add"
 
 // Segue
 let TO_LOGIN = "toLogin"
@@ -25,6 +26,7 @@ let UNWIND = "unwindToChanel"
 let TOKEN_KEY = "token"
 let LOGGED_IN_KEY = "loggedIn"
 let USER_EMAIL = "userEmail"
+
 
 
 // Headers
